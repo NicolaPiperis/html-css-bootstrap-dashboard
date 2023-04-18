@@ -93,9 +93,50 @@ ul{
     display: none;
 }
 
+/* upper */
 
+#upper{
+    width: calc(100% - 150px);
+    height: calc(100vh - 100px);
+    margin-left: 150px;
+    overflow: auto;
+}
 
+#orientation{
+    height: 300px;
+    background-color: #1b72e8;
+}
 
+/* orientation */
+
+.fa-plus{
+    color: white;
+}
+
+.btn, .btn-outline-light:hover .fa-plus{
+    color:black ;
+    margin-left: 30px;
+}
+
+.text_orientation{
+    color: white;
+    font-size: 18px;
+}
+
+.text_orientation h2{
+    font-weight: 700;
+}
+
+.customize_button{
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    color: white;
+    height: 25px;
+    padding: 0 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin:0 8px;
+}
 
 
 
@@ -167,3 +208,7 @@ ul{
         width: 100%;
     }
 }
+
+
+
+
