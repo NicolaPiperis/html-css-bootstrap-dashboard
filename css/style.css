@@ -7,6 +7,8 @@ body{
 /* header style */
 header{
     height: 100px;
+    position: fixed;
+
 }
 
 .logo_image{
@@ -52,7 +54,19 @@ header{
     display: none;
 }
 
+/* main */
+main{
+    width: 100%;
+    height: calc(100vh - 100px);
+}
 
+aside{
+    height: calc(100vh - 100px);
+    width: 150px;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    position: fixed;
+}
 
 
 
