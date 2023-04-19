@@ -100,6 +100,7 @@ ul{
     height: calc(100vh - 100px);
     margin-left: 150px;
     overflow: auto;
+    background-color: #f8f9fa;
 }
 
 #orientation{
@@ -233,14 +234,41 @@ th{
     cursor: pointer;
 }
 
+.text_todo{
+    font-size: 14px;
+}
 
+/* online users */
 
+.stats_image{
+    width: 100%;
+}
 
+.table_border_online_users{
+    border: 1px solid #d2d2d2;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #ffffff;
+}
 
+.table_border_online_users_son{
+    border: 1px solid #d2d2d2;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
 
+main a{
+    text-decoration: underline;
+    color: #287efc;
+}
 
+.title_list{
+    height: 120px;
+}
 
-
+.title_list h3{
+    font-size: 21px;
+}
 
 
 
