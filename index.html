@@ -81,11 +81,18 @@
 
                         </div>
 
-                        <div class="mobile_header">
+                        <div class="dropdown-toggle mobile_header"  data-bs-toggle="dropdown" >
 
                             <a href="#">
                                 <i class="fa-sharp fa-solid fa-bell" style="color: #ff8000;"></i>
                             </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                            
 
                         </div>
 
@@ -156,9 +163,120 @@
 
                                 Nuovo studente
 
-                                <button type="button" class="margin_button btn btn-outline-light">
+                                <button type="button" class="margin_button btn btn-outline-light btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                                     <i class="fa-solid fa-plus" ></i>
                                 </button>
+
+                                <!-- offcavans bs -->
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+
+
+                                     <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasExampleLabel">Registra nuovo studente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+
+
+                                    <form class="row g-3">
+
+                                        <div class="col-md-6">
+                                            <label id="name" class="form-label">Nome</label>
+                                            
+
+                                            <input id="name" type="text" class="form-control" aria-label="First name">
+                                        </div>
+                                        
+
+                                        <div class="col-md-6">
+                                            <label id="surname" class="form-label">Cognome</label>
+
+                                            <input id="surname" type="text" class="form-control" aria-label="Last name">
+                                        </div>
+                                      
+
+                                        <div class="col-md-6">
+
+                                          <label class="form-label">Email</label>
+
+                                          <div class="input-group flex-nowrap">
+                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="addon-wrapping">
+                                          </div>
+
+
+                                        </div>
+                                        
+                                        <div class="col-md-6">
+
+                                          <label for="inputPassword4" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="inputPassword4">
+
+                                        </div>
+
+                                        <div class="col-12">
+
+                                          <label for="inputAddress" class="form-label">Indirizzo</label>
+                                          <input type="text" class="form-control" id="inputAddress">
+
+                                        </div>
+
+
+                                        <div class="col-md-6">
+
+                                          <label for="inputCity" class="form-label">Città</label>
+                                          <input type="text" class="form-control" id="inputCity">
+
+                                        </div>
+
+                                        <div class="col-md-4">
+
+                                          <label for="inputState" class="form-label">Stato</label>
+                                          <select id="inputState" class="form-select">
+                                            <option selected>France</option>
+                                            <option>Italy</option>
+                                          </select>
+
+                                        </div>
+
+                                        <div class="col-md-2">
+
+                                            <label for="inputCity" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="inputCity">
+
+                                        </div>
+
+                                        <div class="col-12">
+
+                                            <label for="formFile" class="form-label">Foto</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                          
+
+                                        </div>
+
+                                        <div class="col-12">
+
+                                            <div class="form-check">
+                                                <input required class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                  Seleziona per proseguire
+                                                </label>
+                                            </div>
+                                              
+                                        </div>
+
+                                        <div class="col-12">
+
+                                          <button type="submit" class="btn btn-primary"> Salva</button>
+
+                                          <button type="button" class="btn btn-warning">Svuota</button>
+
+                                          
+                                        </div>
+
+                                      </form>
+
+                                  </div>
 
                             </div>
 

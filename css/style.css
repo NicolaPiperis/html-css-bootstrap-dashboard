@@ -257,7 +257,7 @@ th{
     background-color: #ffffff;
 }
 
-main a{
+#upper a{
     text-decoration: underline;
     color: #287efc;
 }
@@ -268,6 +268,14 @@ main a{
 
 .title_list h3{
     font-size: 21px;
+}
+
+/* interactive */
+
+/* offcavans */
+
+.offcanvas.offcanvas-end{
+    width: 100%;
 }
 
 
@@ -332,6 +340,16 @@ main a{
 
     .dekstop_button{
         display: inline-block;
+    }
+
+    .offcanvas.offcanvas-end{
+        width: 50%;
+        padding: 20px;
+    }
+
+    .form-check-label{
+        font-size: 16px;
+    
     }
 }
 
