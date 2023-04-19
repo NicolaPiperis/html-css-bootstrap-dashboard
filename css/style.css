@@ -146,6 +146,7 @@ ul{
 
 /* TABLES */
 
+/* next classes */
 #tables{
     width: 100%;
     height: calc(100vh - 400px);
@@ -223,8 +224,14 @@ th{
     display: none;
 }
 
+/* faq */
+.list-group-item{
+    height: 50px;
+}
 
-
+.fa-solid{
+    cursor: pointer;
+}
 
 
 
